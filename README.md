@@ -1,4 +1,4 @@
-# rust-new-project-template
+# Week2 mini rust project -- String replacement
 A good starting point for a new Rust project
 
 ## References
