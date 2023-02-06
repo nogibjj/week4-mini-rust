@@ -7,10 +7,10 @@ Type `cargo run <word1> <word2>`
 ## Example
 Type `cargo run apple peach mango`
 
-The program will return:
-`apple<br />
-peach<br />
-mango`
+The program will return:<br />
+`apple`
+`peach`
+`mango`
 
 
 
