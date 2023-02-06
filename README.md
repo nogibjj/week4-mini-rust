@@ -8,9 +8,9 @@ Type `cargo run <word1> <word2>`
 Type `cargo run apple peach mango`
 
 The program will return:<br />
-`apple`
-`peach`
-`mango`
+`apple`<br />
+`peach`<br />
+`mango`<br />
 
 
 
