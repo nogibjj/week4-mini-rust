@@ -1,4 +1,4 @@
-# Week2 mini rust project -- String replacement
+# Week3 mini rust project -- A simple CLI
 A good starting point for a new Rust project
 
 ## References
