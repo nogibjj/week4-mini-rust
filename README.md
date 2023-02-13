@@ -1,4 +1,4 @@
-# Week3 mini rust project -- A simple CLI
+# Week4 mini rust project -- CLI Guess Number Game
 This is a CLI game where the player is asked to guess a secret number. The game will then compare the player's guess with the secret number and inform the player if their guess is too small, too big, or correct.
 
 Type `make all` to set the environment
