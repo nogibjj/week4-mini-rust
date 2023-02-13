@@ -1,13 +1,25 @@
-use std::env;
+use std::io;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
+    println!("Guess the number!");
 
-    if args.len() == 1 {
-        println!("Usage: cargo run [arg1] [arg2] ...");
-    } else {
-        for arg in &args[1..] {
-            println!("{}", arg);
-        }
+    println!("Please input your guess.");
+
+    let secret_number = 6;
+
+    let mut guess = String::new();
+
+    io::stdin()
+        .read_line(&mut guess)
+        .expect("Failed to read line");
+
+    let guess: u32 = guess.trim().parse().expect("Please type a number!");
+
+    println!("You guessed: {guess}");
+
+    match guess.cmp(&secret_number) {
+        std::cmp::Ordering::Less => println!("Too small!"),
+        std::cmp::Ordering::Greater => println!("Too big!"),
+        std::cmp::Ordering::Equal => println!("You win!"),
     }
 }

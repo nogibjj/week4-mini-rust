@@ -1,17 +1,16 @@
 # Week3 mini rust project -- A simple CLI
-This is a CLI that prints out words that user inputs. If user has no input words, the program will display its usage.
+This is a CLI game where the player is asked to guess a secret number. The game will then compare the player's guess with the secret number and inform the player if their guess is too small, too big, or correct.
 
-Type `cargo run <word1> <word2>`
+Type `make all` to set the environment
 
+Type `cargo run` to start the game, then you will see
 
-## Example
-Type `cargo run apple peach mango`
+```
+Guess the number!
+Please input your guess.
+```
 
-The program will return:<br />
-`apple`<br />
-`peach`<br />
-`mango`<br />
-
+Input the number to start the game! 
 
 
 ## Reference
